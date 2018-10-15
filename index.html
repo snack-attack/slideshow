@@ -2,20 +2,44 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hero Slider</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <!--[if lt IE 7]>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hero Slider</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <script src="main.js" async defer></script>
-  </body>
+  <section id="slider" class="full-width">
+    <div class="slider__container">
+      <div class="slider__wrap">
+        <div class="slider__images">
+          <ul id="slider__images-content">
+            <li><a href="#" id="front-link"><img src="assets/img/slippry-01.jpg" alt="Welcome to Slippry!"></a></li>
+            <li><a href="#"><img src="assets/img/slippry-02.jpg" alt="This is an awesome jQuery slider plugin."></a></li>
+            <li><a href="#"><img src="assets/img/slippry-03.jpg" alt="Check it out, you are going to <span class='red'>♥</span> it :)"></a></li>
+          </ul>
+        </div>
+        <ul class="slider__controls">
+        </ul>
+        <div class="slider__caption">
+          <div class="slider__caption-content"></div>
+        </div>
+      </div>
+      <ul class="slider__pagination">
+      </ul>
+    </div>
+  </section>
+  <script src="main.js" async defer></script>
+</body>
+
 </html>
