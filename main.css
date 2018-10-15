@@ -1,0 +1,10 @@
+.slider__container {
+	margin: 2em auto;
+	width: 100%;
+    overflow: hidden;
+}
+
+.slider__wrap {
+	position: relative;
+	transition: left 400ms linear;
+}
